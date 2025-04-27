@@ -20,7 +20,7 @@ void Klub::wyswietl_info()
 
 Klub::~Klub()
 {
-    // pusty destruktor
+
 }
 
 vector<Klub> utworz_liste_klubow() {

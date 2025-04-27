@@ -13,13 +13,13 @@ int main()
     srand(time(NULL));
     vector<Klub> kluby = utworz_liste_klubow();
 
-    // Wyświetlamy nagłówki tabeli
+    //nagłówki tabeli
     cout << left << setw(8) << "Indeks"
         << setw(25) << "Nazwa Klubu"
         << setw(5) << "Sila" << endl;
     cout << string(38, '-') << endl;
 
-    // Wyświetlamy informacje o każdym klubie
+    //info o każdym klubie
     for (int i = 0; i < kluby.size(); i++) {
         kluby[i].wyswietl_info();
     }
