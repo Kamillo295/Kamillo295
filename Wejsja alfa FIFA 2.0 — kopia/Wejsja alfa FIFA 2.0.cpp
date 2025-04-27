@@ -10,6 +10,7 @@ void losownie_grupa();
 
 int main()
 {
+    srand(time(NULL));
     vector<Klub> kluby = utworz_liste_klubow();
 
     // Wyświetlamy nagłówki tabeli
