@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Kluby.cpp" />
     <ClCompile Include="losowanie.cpp" />
+    <ClCompile Include="losowanie_grup.cpp" />
     <ClCompile Include="Matching.cpp" />
     <ClCompile Include="Wejsja alfa FIFA 2.0.cpp" />
   </ItemGroup>

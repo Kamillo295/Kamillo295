@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void losownie_grupa();
+void losownie_grupa_v2();
 
 int main()
 {
@@ -24,7 +24,7 @@ int main()
         kluby[i].wyswietl_info();
     }
 
-    losownie_grupa();
+    losownie_grupa_v2();
 
 
     return 0;
